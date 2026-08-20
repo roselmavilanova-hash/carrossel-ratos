@@ -36,12 +36,14 @@ Ler `references/design-carrossel.md`. Se o arquivo contiver a linha `<!-- estilo
 > "Como tu quer o visual dos slides?
 > 1. **Minimalista:** limpo, muito espaço em branco, layouts simples. Elegante e clean
 > 2. **Elaborado:** texturas, composições ousadas, layouts variados. Impactante e marcante no feed
-> 3. **Tweet:** simula um tweet/post do Twitter. Fundo branco, foto de perfil e @handle no topo, texto grande embaixo. Ultra-limpo e familiar"
+> 3. **Tweet:** simula um tweet/post do Twitter. Fundo branco, foto de perfil e @handle no topo, texto grande embaixo. Ultra-limpo e familiar
+> 4. **Conto:** visual literário, tipografia serifada, fundo creme. Cada slide parece uma página de livro ou revista cultural. Para conteúdo que merece ser lido devagar"
 
 Conforme a resposta, **substituir o conteúdo inteiro** de `references/design-carrossel.md` pelo conteúdo do arquivo de estilo escolhido:
 - Minimalista: copiar conteúdo de `references/design-minimalista.md`
 - Elaborado: copiar conteúdo de `references/design-elaborado.md`
 - Tweet: copiar conteúdo de `references/design-tweet.md`
+- Conto: copiar conteúdo de `references/design-conto.md`
 
 Se `design-carrossel.md` NÃO contiver `<!-- estilo: pendente -->`, o estilo já foi escolhido. Não perguntar de novo.
 
@@ -65,7 +67,7 @@ Se o design guide já tiver a seção "Perfil do autor" preenchida, não pergunt
 
 Se o usuário não souber ou não tiver preferência, usar **elaborado** como padrão.
 
-O usuário pode trocar depois a qualquer momento: "muda o estilo do carrossel pra tweet" e o Claude copia o outro arquivo.
+O usuário pode trocar depois a qualquer momento: "muda o estilo do carrossel pra tweet" (ou conto, minimalista, elaborado) e o Claude copia o outro arquivo.
 
 ### 3. Tom de voz
 
